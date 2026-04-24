@@ -1,24 +1,26 @@
-# AI Usage Report – Assignment 3
+# 🤖 AI Usage Report – Assignment 4
 
 ## 1. Tools Used & Use Cases
 
 ### GitHub Copilot
-GitHub Copilot was used occasionally for code completion and speeding up repetitive tasks.  
-It mainly helped with:
+GitHub Copilot was used to improve development speed and reduce repetitive coding tasks. It mainly helped with:
 
-- Autocompleting JSX structure
-- Writing repetitive patterns such as `.map()` rendering
-- Suggesting small syntax improvements
+- Autocompleting React components and JSX structure  
+- Suggesting repetitive patterns such as `.map()` rendering  
+- Assisting with small syntax improvements and formatting  
+
+---
 
 ### ChatGPT (AI Assistant)
-ChatGPT was used as a support tool for problem-solving and clarification. It was mainly used to:
+ChatGPT was used as a problem-solving and support tool throughout the project. It was mainly used to:
 
-- Get guidance on implementing GitHub API integration
-- Understand how to structure filtering and sorting logic
-- Troubleshoot layout and styling issues when needed
-- Improve wording in documentation
+- Understand how to implement GitHub API integration  
+- Design filtering and sorting logic for projects  
+- Troubleshoot errors during deployment (GitHub Pages + Vite)  
+- Improve UI/UX structure and layout decisions  
+- Assist in writing and refining documentation  
 
-AI was not used to generate full solutions, but rather to guide the development process.
+AI was used as guidance and support, not for generating full solutions.
 
 ---
 
@@ -26,25 +28,26 @@ AI was not used to generate full solutions, but rather to guide the development 
 
 ### Benefits
 
-AI tools helped improve efficiency by providing quick suggestions and explanations.  
-They were useful for:
+AI tools significantly improved efficiency and understanding during development. They helped with:
 
-- Understanding how to approach certain features (such as API integration)
-- Debugging specific issues
-- Improving overall code clarity
+- Breaking down complex problems into simpler steps  
+- Providing quick debugging suggestions  
+- Improving code readability and structure  
+- Assisting with deployment setup and configuration  
 
-Most of the implementation was done manually, with AI used to support decision-making and problem-solving.
+AI acted as a support system that accelerated development while maintaining control over the implementation.
+
+---
 
 ### Challenges
 
-AI suggestions were not always directly usable and often required adjustments.  
-In some cases:
+AI suggestions were not always directly usable and required modification. Some challenges included:
 
-- Suggestions did not match the project structure
-- Extra changes were needed to integrate them properly
-- Some responses required simplification to ensure full understanding
+- Suggestions not matching the exact project structure  
+- Deployment-related solutions needing adjustments (e.g., Vite + GitHub Pages)  
+- Occasional overly complex explanations that required simplification  
 
-This required reviewing, testing, and adapting all suggestions before using them.
+All outputs had to be reviewed, tested, and adapted before use.
 
 ---
 
@@ -52,24 +55,26 @@ This required reviewing, testing, and adapting all suggestions before using them
 
 Through this assignment, I learned how to:
 
-- Implement API integration and handle asynchronous data
-- Design filtering and sorting logic using conditions and state
-- Manage application state using React hooks
-- Optimize performance using techniques such as memoization
-- Structure components in a clean and maintainable way
+- Deploy a React/Vite application using GitHub Pages and GitHub Actions  
+- Implement API integration and handle asynchronous data  
+- Build dynamic filtering and sorting logic  
+- Manage application state effectively using React  
+- Optimize performance and improve user experience  
+- Structure a complete, professional web application  
 
-AI helped support the learning process, but the implementation and understanding were developed independently.
+AI supported the learning process, but the final implementation and understanding were developed independently.
 
 ---
 
 ## 4. Responsible Use & Modifications
 
-All AI-assisted suggestions were reviewed and modified before being included in the project.  
+All AI-generated suggestions were carefully reviewed and modified before being used.
 
 I ensured that:
 
-- I understood the purpose and logic of each feature
-- The code was rewritten or adjusted to match my own structure
-- No AI-generated solution was used without verification
+- I fully understood the logic behind each implementation  
+- Code was adjusted to fit my own project structure and style  
+- Outputs were tested and verified before inclusion  
+- No AI-generated content was used blindly  
 
-AI was used as a learning aid and support tool, not as a substitute for my own work.
+AI was used as a **learning and support tool**, not as a replacement for my own work.

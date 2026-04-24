@@ -67,7 +67,7 @@ This portfolio highlights my projects, skills, and experience through a **respon
 
 ## 🌍 Live Demo
 
-👉 *(Add your deployed link here — GitHub Pages / Netlify / Vercel)*
+👉 'https://jwanabdullah.github.io/202246560-jwanAlghamdi-assignment4/'
 
 ---
 
@@ -77,7 +77,7 @@ This portfolio highlights my projects, skills, and experience through a **respon
 To run this project locally:
 
 1. Clone the repository:
-   `https://github.com/JwanAbdullah/202246560-jwanAlghamdi-assignment3.git`
+   `https://github.com/JwanAbdullah/202246560-jwanAlghamdi-assignment4.git`
 
 2. Navigate into the project folder:
    `cd portfolio`
@@ -100,7 +100,7 @@ AI tools were used during development to:
 * Assist in implementing API integration and data fetching
 * Help design filtering and sorting logic
 * Improve UI/UX design and layout structure
-* Support debugging and optimization
+* Debug and optimize code
 
 All AI-generated content was reviewed, tested, and modified to ensure correctness and full understanding.
 
@@ -108,19 +108,26 @@ A detailed report is available in:
 `docs/ai-usage-report.md`
 
 ---
+## 🔮 Future Improvements
 
-## 📈 Improvements from Assignment 2
-
-* Added real-time API integration (GitHub repositories)
-* Implemented advanced filtering and sorting logic
-* Improved state management with persistent data
-* Enhanced performance and loading efficiency
-* Refined UI for a more professional portfolio experience
-
+- Add more interactive features (animations, transitions)
+- Improve accessibility (ARIA labels, better contrast, keyboard navigation)
+- Enhance performance (optimize assets, reduce load time)
+- Improve SEO and metadata
 ---
 
 ## 📂 Additional Documentation
 
 * AI usage report: `docs/ai-usage-report.md`
 * Technical documentation: `docs/technical-documentation.md`
+
+---
+
+## 🎥 Presentation
+
+The project presentation includes a video demonstration and supporting slides.
+
+- 🎬 Demo Video → `presentation/demo-video.mp4`
+- 📊 Slides → `presentation/slides.pdf`
+
 

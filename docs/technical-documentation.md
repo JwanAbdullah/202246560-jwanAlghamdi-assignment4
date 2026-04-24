@@ -1,101 +1,121 @@
-# Technical Documentation – Assignment 3
+# 📄 Technical Documentation – Assignment 4
 
 ## 1. Overview
 
-This project is an advanced version of the personal portfolio developed in Assignments 1 and 2.
+This project is a **complete personal web application** developed as part of Assignment 4.
 
-It is built using React and Vite, with a focus on implementing advanced functionality such as API integration, complex logic, state management, and performance optimization.
+It builds upon previous assignments and integrates all concepts into a **fully functional, responsive, and deployable portfolio website**.
 
-The application showcases personal information, experience, projects, and skills through modular components, while providing dynamic and interactive features.
+The application is built using React and Vite, focusing on:
+
+- Dynamic content rendering  
+- API integration  
+- State management  
+- Performance optimization  
+- Deployment using GitHub Pages  
+
+The goal is to deliver a **professional, production-ready web application**.
 
 ---
 
 ## 2. Technologies Used
 
-- React (Functional Components & Hooks)
-- Vite (Build tool and development server)
-- JavaScript (ES6+)
-- CSS (Flexbox, Grid, Transitions)
-- GitHub API (data fetching)
-- LocalStorage (state persistence)
+- React (Functional Components & Hooks)  
+- Vite (Build tool and development server)  
+- JavaScript (ES6+)  
+- CSS (Flexbox, Grid, Transitions)  
+- GitHub API (data fetching)  
+- LocalStorage (state persistence)  
+- GitHub Actions (deployment automation)  
 
 ---
 
 ## 3. Project Structure
 
-```
-src/
-│
-├── components/
-│   ├── Navbar.jsx
-│   ├── About.jsx
-│   ├── Experience.jsx
-│   ├── Projects.jsx
-│   ├── GithubRepos.jsx
-│   ├── Skills.jsx
-│   ├── Contact.jsx
-│   └── Footer.jsx
-│
-├── assets/
-│   └── images/
-│       ├── aic.png
-│       ├── kfupm-gpt.png
-│       ├── kommute.png
-│       ├── sage.png
-│       └── reserve.png
-│
-├── App.jsx
-├── App.css
-└── main.jsx
-```
+    src/
+    │
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── About.jsx
+    │   ├── Experience.jsx
+    │   ├── Projects.jsx
+    │   ├── GithubRepos.jsx
+    │   ├── Skills.jsx
+    │   ├── Contact.jsx
+    │   └── Footer.jsx
+    │
+    ├── assets/
+    │   └── images/
+    │
+    ├── App.jsx
+    ├── App.css
+    └── main.jsx
 
-- `main.jsx` initializes the application
-- `App.jsx` renders all sections
-- `components/` contains modular UI sections
-- `GithubRepos.jsx` handles API integration
-- `App.css` contains global styling and themes
+    docs/
+    ├── ai-usage-report.md
+    └── technical-documentation.md
+
+    presentation/
+    ├── slides.pdf
+    └── demo-video.mp4
+
+    .github/
+    └── workflows/
+        └── deploy.yml
+
+    README.md
 
 
+
+
+### Explanation
+
+- `main.jsx` → Entry point of the application  
+- `App.jsx` → Main layout that renders all sections  
+- `components/` → Modular UI sections  
+- `GithubRepos.jsx` → Handles API integration  
+- `.github/workflows/` → Automates deployment to GitHub Pages  
 
 ---
 
-
 ## 4. Components Architecture
 
-- **Navbar** – Navigation and theme toggle
-- **About** – Personal introduction and visitor state
-- **Experience** – Displays experience dynamically
-- **Projects** – Includes filtering and sorting logic
-- **GithubRepos** – Fetches and displays API data
-- **Skills** – Displays skills with visual indicators
-- **Contact** – Form with user interaction
-- **Footer** – Additional links and information
+The application is structured into reusable components:
 
-Components are reusable and structured for maintainability.
+- **Navbar** – Navigation menu and theme toggle  
+- **About** – Personal introduction  
+- **Experience** – Displays experience dynamically  
+- **Projects** – Handles filtering and sorting logic  
+- **GithubRepos** – Fetches and displays GitHub data  
+- **Skills** – Visual representation of skills  
+- **Contact** – User interaction form  
+- **Footer** – Additional information and links  
+
+This modular structure improves maintainability and scalability.
 
 ---
 
 ## 5. API Integration
 
-The application integrates the GitHub API to fetch repositories dynamically.
+The application integrates the **GitHub API** to fetch repository data dynamically.
 
-- Uses `fetch()` to retrieve repository data
-- Displays latest repositories in the UI
-- Includes loading and error handling states
+- Uses `fetch()` for asynchronous requests  
+- Displays repository information in real time  
+- Includes loading and error handling states  
 
-This ensures the content remains dynamic and up-to-date.
+This ensures content stays updated without manual changes.
 
 ---
 
 ## 6. Complex Logic
 
-The Projects section implements filtering and sorting logic:
+The Projects section includes dynamic logic:
 
-- Users can filter projects by category (AI, Web, Desktop)
-- Users can sort projects by name or year
-- Logic combines multiple conditions and updates UI dynamically
+- Filter projects by category (AI, Web, Desktop)  
+- Sort projects by name or year  
+- Combine multiple conditions for dynamic updates  
 
-`useMemo` is used to optimize performance by recalculating data only when dependencies change.
+`useMemo` is used to optimize rendering and avoid unnecessary recalculations.
 
 ---
 
@@ -103,69 +123,88 @@ The Projects section implements filtering and sorting logic:
 
 State is managed using React hooks:
 
-- `useState` for user selections (filtering, sorting, theme)
-- `useEffect` for loading persistent data
-- `localStorage` to store:
-  - theme preference
+- `useState` → user interactions (filters, theme, sorting)  
+- `useEffect` → lifecycle events and data loading  
+- `localStorage` → persistent theme preference  
 
-This ensures data persistence and dynamic updates.
+This ensures smooth interaction and consistent user experience.
 
 ---
 
 ## 8. Performance Optimization
 
-The application includes several performance improvements:
+Performance improvements include:
 
-- Optimized image sizes for faster loading
-- Removed unused code and redundant styles
+- Optimized image sizes  
+- Removal of unused code  
+- Efficient rendering using React hooks  
 
-Performance was tested using browser tools such as Lighthouse.
+Performance testing was done using browser tools such as Lighthouse.
 
 ---
 
 ## 9. User Interaction
 
-The application includes interactive features:
+Interactive features include:
 
-- Theme toggle with persistent state
-- Project filtering and sorting controls
-- Dynamic GitHub data display
-- Contact form interaction
+- Dark/Light mode toggle  
+- Project filtering and sorting  
+- Dynamic GitHub data display  
+- Contact form interaction  
 
-These features improve usability and responsiveness.
+These features improve usability and engagement.
 
 ---
 
 ## 10. Error Handling & Feedback
 
-- API errors are handled with fallback messages
-- Loading states inform the user during data fetching
-- Contact form provides success feedback
-- Input validation prevents incorrect data submission
+The application handles errors and user feedback effectively:
+
+- API errors show fallback messages  
+- Loading indicators improve user experience  
+- Form validation prevents incorrect input  
 
 ---
 
-## 11. Improvements from Assignment 2
+## 11. Deployment
 
-- Added GitHub API integration
-- Implemented filtering and sorting logic
-- Improved state management with persistent data
-- Enhanced performance and loading behavior
-- Refined UI and user experience
+The application is deployed using **GitHub Pages with GitHub Actions**.
+
+### Deployment Process
+
+1. Code is pushed to the `main` branch  
+2. GitHub Actions workflow runs automatically  
+3. The project is built using `npm run build`  
+4. The `dist/` folder is deployed to GitHub Pages  
+
+### Live Application
+
+👉 https://jwanabdullah.github.io/202246560-jwanAlghamdi-assignment4/
 
 ---
 
-## 12. Limitations
+## 12. Improvements from Previous Assignments
 
-- API usage is limited to GitHub
-- Some features are simplified for demonstration purposes
+- Integrated API for dynamic content  
+- Added advanced filtering and sorting  
+- Improved state management  
+- Implemented automated deployment  
+- Enhanced UI and responsiveness  
 
 ---
 
-## 13. Future Improvements
+## 13. Limitations
 
-- Connect contact form to a backend service
-- Add search functionality for projects
-- Improve accessibility (ARIA, keyboard navigation)
-- Add more advanced API integrations
-- Enhance UI animations and responsiveness
+- API usage is limited to GitHub  
+- Contact form is not connected to a backend  
+- Some features are simplified for demonstration  
+
+---
+
+## 14. Future Improvements
+
+- Connect contact form to a backend service  
+- Add project search functionality  
+- Improve accessibility (ARIA, keyboard navigation)  
+- Enhance animations and UI interactions  
+- Integrate additional APIs  
