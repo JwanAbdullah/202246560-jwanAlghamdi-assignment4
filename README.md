@@ -1,69 +1,76 @@
-# Assignment 3 – Advanced Functionality Portfolio
+# 🌐 Assignment 4 – Personal Web Application
 
-## 📌 Project Description
+## 📌 Project Overview
 
-This project is an advanced version of my interactive portfolio website, building on Assignments 1 and 2.
+This project is my **final personal portfolio web application**, developed as part of Assignment 4.
 
-The goal of this assignment was to implement **advanced functionality**, including API integration, complex application logic, and improved state management, while maintaining a clean and modern user interface.
+The goal of this assignment is to deliver a **complete, polished, and professional web application** that showcases my technical skills, creativity, and ability to build a real-world project.
 
-The portfolio now provides a dynamic and interactive experience, showcasing projects, skills, and real-time data.
+This portfolio highlights my projects, skills, and experience through a **responsive, interactive, and user-friendly interface**.
+
+---
+
+## 🎯 Objectives
+
+- Build a fully functional personal web application  
+- Demonstrate mastery of web development concepts  
+- Present a professional and polished product  
+- Showcase creativity and technical implementation  
 
 ---
 
 ## 🚀 Features
 
+### 🔹 Dynamic Project Showcase
+- Displays projects dynamically  
+- Includes filtering and sorting functionality  
+- Organized by category and relevance  
+
+---
+
 ### 🔹 API Integration
-
-* Integrated GitHub API to fetch and display real-time repository data
-* Displays latest projects with dynamic updates
-* Includes loading and error handling for better user experience
-
----
-
-### 🔹 Complex Logic
-
-* Implemented project **filtering and sorting**
-  * Filter projects by category (AI, Web, Desktop)
-  * Sort projects by name or year
-* Combined multiple conditions to dynamically update displayed content
+- Integrated GitHub API to fetch repositories  
+- Displays real-time project data  
+- Includes loading and error handling  
 
 ---
 
-### 🔹 State Management
-
-* Dark/Light mode toggle with persistence using `localStorage`
-* Project filtering and sorting using React state
+### 🔹 Interactive Functionality
+- Dark/Light mode toggle with `localStorage` persistence  
+- Responsive UI updates based on user interaction  
+- Smooth transitions and animations  
 
 ---
 
 ### 🔹 Performance Optimization
-
-* Optimized image sizes for faster loading
-* Used lazy loading for images
-* Removed unused code and improved CSS efficiency
-* Used `useMemo` to optimize rendering of filtered/sorted data
-* Tested performance using browser tools such as Lighthouse
+- Optimized images and assets  
+- Lazy loading for improved speed  
+- Efficient rendering and clean code structure  
 
 ---
 
-### 🔹 UI & User Experience
-
-* Clean and responsive design
-* Interactive project section with dynamic updates
-* Smooth transitions and hover effects
-* Improved layout consistency and visual hierarchy
+### 🔹 Responsive Design
+- Fully responsive across devices (mobile, tablet, desktop)  
+- Clean and modern UI  
+- Consistent layout and spacing  
 
 ---
 
 ## 🛠 Technologies Used
 
-* React
-* Vite
-* JavaScript (ES6+)
-* CSS (Flexbox + Transitions)
-* AI-assisted tools (Claude + GitHub Copilot)
+- HTML / CSS / JavaScript  
+- React + Vite  
+- Git & GitHub  
+- AI Tools (ChatGPT, GitHub Copilot)
 
 ---
+
+## 🌍 Live Demo
+
+👉 *(Add your deployed link here — GitHub Pages / Netlify / Vercel)*
+
+---
+
 
 ## ⚙️ Setup Instructions
 
