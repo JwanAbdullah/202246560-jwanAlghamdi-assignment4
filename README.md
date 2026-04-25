@@ -67,7 +67,7 @@ This portfolio highlights my projects, skills, and experience through a **respon
 
 ## 🌍 Live Demo
 
-👉 'https://jwanabdullah.github.io/202246560-jwanAlghamdi-assignment4/'
+👉 https://jwanabdullah.github.io/202246560-jwanAlghamdi-assignment4/
 
 ---
 
@@ -95,14 +95,13 @@ To run this project locally:
 
 ## 🤖 AI Usage Summary
 
-AI tools were used during development to:
+AI tools were used occasionally for:
 
-* Assist in implementing API integration and data fetching
-* Help design filtering and sorting logic
-* Improve UI/UX design and layout structure
-* Debug and optimize code
+- Debugging specific issues
+- Clarifying React concepts
+- Suggesting improvements to code structure
 
-All AI-generated content was reviewed, tested, and modified to ensure correctness and full understanding.
+All suggestions were reviewed, modified, and integrated manually.
 
 A detailed report is available in:
 `docs/ai-usage-report.md`

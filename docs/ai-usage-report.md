@@ -20,7 +20,7 @@ ChatGPT was used as a problem-solving and support tool throughout the project. I
 - Improve UI/UX structure and layout decisions  
 - Assist in writing and refining documentation  
 
-AI was used as guidance and support, not for generating full solutions.
+AI was used as a support tool to guide decisions and improve specific parts of the implementation.
 
 ---
 
@@ -78,3 +78,16 @@ I ensured that:
 - No AI-generated content was used blindly  
 
 AI was used as a **learning and support tool**, not as a replacement for my own work.
+
+---
+
+## 5. Innovative Use of AI
+
+AI was used not only for assistance, but also to explore and compare different implementation approaches before coding.
+
+For example:
+- Evaluating different ways to implement filtering and sorting logic  
+- Understanding when to use performance optimizations such as useMemo  
+- Refining UI structure based on usability suggestions  
+
+This helped improve decision-making and allowed for more efficient and optimized solutions, rather than relying on a single approach.
